@@ -1,0 +1,15 @@
+
+{
+    "taskName":" Trabajo Triptico ",
+    "userName": "Alex",
+    "userAge": 26,
+    "tituloTrabajo":"Personaje relevante en la historia de la informatica",
+    "content":"contenido del tabajo de elementos de informatica",
+    "notas":[
+        {
+          "nota1":4,
+          "nota2":6
+
+            }
+     ]
+}
