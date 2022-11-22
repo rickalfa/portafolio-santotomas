@@ -141,7 +141,7 @@ try{
 
           <div class="col-lg-4">
             <div class="portfolio-info">
-              <h3>Project information</h3>
+              <h3>informacion del projecto</h3>
               <ul>
                 <li><strong>Unidad 1 </strong></li>
                 <li><strong>fecha projecto</strong>: <?php echo $ObjDates["viewscontent"][$getdate]["fechaTrabajo"];  ?> </li>

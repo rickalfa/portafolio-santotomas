@@ -36,6 +36,29 @@
       
     
          
-     }  
+     },
+     {
+      "taskName":" Operadores de busqueda  ",
+      "fechaTrabajo": " 25 octubre, 2022",
+      "tituloTrabajo":"Operadores de busqueda , motores de busqueda ",
+      "content":"Los operadores de busqueda son unos términos que Google entiende como comandos. Comandos que te pueden mejorar las búsquedas. Son muchos los operadores de búsqueda de Google y son de gran utilidad para hacer búsquedas más precisas.",
+      "images":[
+              {
+         
+  
+            "img-01":"assets/img/portfolio/operadorbusqueda-01.png",
+            "img-02":"assets/img/portfolio/operadorbusqueda-02.png",
+            "img-03":"assets/img/portfolio/operadorbusqueda-03.png"
+  
+  
+              }
+           ]
+        
+      
+           
+       }
+
+
+
  ]
 }

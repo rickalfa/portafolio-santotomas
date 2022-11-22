@@ -192,7 +192,7 @@
 
         <div class="section-title">
           <h2>Habilidades Aprendidas </h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p> .</p>
         </div>
 
         <div class="row skills-content">
@@ -258,7 +258,7 @@
 
         <div class="section-title">
           <h2>Indice</h2>
-          <p>Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Trabajos y tareas de Elementos de informatica.</p>
         </div>
 
         <!-- ========= COLUMNA DERECHA START ==============  -->
@@ -352,7 +352,7 @@
               <h5>unidad 1 - Octubre </h5>
               <p><em>Operadores de busqueda Motores web de busqueda </em></p>
               <ul>
-                <li> </li>
+                <li><a href="portfolio-details.php?date=1"> Opedadores </a> </li>
                 <li>Motores de busqueda </li>
                
                </ul>
