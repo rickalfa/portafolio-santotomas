@@ -104,8 +104,8 @@ try{
         <div class="d-flex justify-content-between align-items-center">
           <h2>Detalle Portafolio <?php echo $getdate; ?></h2>
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Detalle Portafolio</li>
+            <li><a href="index.php">Home</a></li>
+            <li><?php echo $ObjDates["viewscontent"][$getdate]["taskName"] ?></li>
           </ol>
         </div>
 
@@ -123,15 +123,15 @@ try{
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-1.jpg" alt="">
+                  <img src=<?php echo $ObjDates["viewscontent"][$getdate]["images"][0]["img-03"];  ?>  alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-2.jpg" alt="">
+                  <img src=<?php echo $ObjDates["viewscontent"][$getdate]["images"][0]["img-02"];  ?>  alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-3.jpg" alt="">
+                  <img src=<?php echo $ObjDates["viewscontent"][$getdate]["images"][0]["img-01"];  ?> alt="">
                 </div>
 
               </div>
@@ -143,17 +143,23 @@ try{
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
+                <li><strong>Unidad 1 </strong></li>
+                <li><strong>fecha projecto</strong>: <?php echo $ObjDates["viewscontent"][$getdate]["fechaTrabajo"];  ?> </li>
                 <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2><?php echo $ObjDates["tituloTrabajo"];  ?></h2>
+              <h2><?php echo $ObjDates["viewscontent"][$getdate]["tituloTrabajo"];  ?></h2>
               <p>
-                <?php echo $ObjDates["content"]."<br>"; 
-                      echo " la nota de la persona es  : ".$ObjDates["notas"][0]["nota1"];
+                <?php echo $ObjDates["viewscontent"][$getdate]["content"]."<br>"; 
+                      echo " la nota de la persona es  : ";
+
+                      if($getdate == 0){
+
+                        echo $ObjDates["viewscontent"][$getdate]["contentExtra"];
+
+                      }
+
                 ?>
               </p>
             </div>

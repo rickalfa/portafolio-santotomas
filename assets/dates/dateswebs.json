@@ -1,15 +1,41 @@
 
 {
+  "viewscontent":[{
     "taskName":" Trabajo Triptico ",
     "userName": "Alex",
-    "userAge": 26,
+    "fechaTrabajo": " 3 octubre, 2022",
     "tituloTrabajo":"Personaje relevante en la historia de la informatica",
-    "content":"contenido del tabajo de elementos de informatica",
-    "notas":[
-        {
-          "nota1":4,
-          "nota2":6
+    "content":"contenido del trabajo de elementos de informatica",
+    "images":[
+            {
+              "img-01":"assets/img/portfolio/personaje-01.jpg",
+              "img-02":"assets/img/portfolio/personaje-02.jpg",
+              "img-03":"assets/img/portfolio/personaje-03.jpg"
 
             }
-     ]
+         ],
+    "contentExtra":"<li> <a href='http://localhost/DennisRitchie.pdf' > Link descarga PDF del Triptico </a> </li>"
+         
+    }, 
+    {
+    "taskName":" Arquitectura de computadores  ",
+    "fechaTrabajo": " 12 octubre, 2022",
+    "tituloTrabajo":"Modelos de computacion , cluster ",
+    "content":"La computación paralela y distribuida construye sobre cimientos en muchas áreas, incluyendo la comprensión de los conceptos fundamentales de los sistemas, tales como la concurrencia y la ejecución en paralelo, la consistencia en el estado / manipulación de la memoria, y lalatencia. ",
+    "images":[
+            {
+       
+
+          "img-01":"assets/img/portfolio/modeloscomputacion-01.jpg",
+          "img-02":"assets/img/portfolio/modeloscomputacion-02.png",
+          "img-03":"assets/img/portfolio/modeloscomputacion-03.png"
+
+
+            }
+         ]
+      
+    
+         
+     }  
+ ]
 }

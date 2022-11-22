@@ -288,7 +288,16 @@
               <p><em> Tutorial y aplicaciones para crear Lineas de tiempo  </em></p>
               <p>practica en clases y archivos  </p>
             </div>
+
+            
+
+
+
+
           </div>
+
+
+
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title"> Arquitectura de computadores : computacion grid</h3>
             <div class="resume-item">
@@ -296,7 +305,7 @@
               <h5>unidad 1 - Octubre</h5>
               <p><em>Analisis de tipos de computacion Distribuida </em></p>
               <ul>
-                <li>Modelo de computacion en paralelo</li>
+                <li> <a href="portfolio-details.php?date=1">  Modelo de computacion en paralelo </a></li>
                 <li>Cluster . </li>
                 <li>Ventajas y desventajas de cada tipo de computacion </li>
                 
@@ -307,7 +316,7 @@
               <h5>unidad 1 - Octrubre</h5>
               <p><em>Desarrollo de presentacion de personaje o tema Relevante</em></p>
               <ul>
-                <li>Triptico</li>
+                <li><a href="portfolio-details.php?date=0">Triptico </a></li>
                 <li>Personaje Dennies Ritchie  . </li>
                 <li>Sistema Operativo Unix</li>
                 
@@ -346,8 +355,19 @@
                 <li> </li>
                 <li>Motores de busqueda </li>
                
-                
-              </ul>
+               </ul>
+            </div>
+
+
+            <div class="resume-item">
+              <h4>Screencast </h4>
+              <h5>unidad 1 - Octubre (18 - octubre ) </h5>
+              <p><em>Video Tutorial intalacion Git </em></p>
+              <ul>
+          
+                <li><a href="https://www.youtube.com/watch?v=tGjqLHqG3aQ&t=11s" target="_blank" > intalacion git para S.O. Windows , interfaz grafica y linea de comandos</a> </li>
+                <li>  </li>
+               </ul>
             </div>
 
           </div>
@@ -387,7 +407,7 @@
               <img src="assets/img/portfolio/unix_01.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/unix_01.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.php?date=1" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php?date=0" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
