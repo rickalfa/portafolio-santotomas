@@ -5,8 +5,6 @@ $getdate = $_GET['date'];
 
 echo 'get date : '.$getdate;
 
-
-
 try{
 
  $dates_file = file_get_contents('assets/dates/dateswebs.json',true);
@@ -16,7 +14,7 @@ try{
  $ObjDates = json_decode($dates_file,true);
 
 
-  }catch(Exception ){
+  }catch(Exception $e){
    
     $showMenssage = "archivo no encontrado ";
     
@@ -79,7 +77,7 @@ try{
            <ul>
              <li><a href="index.php" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
              <li><a href="index.php" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-             <li><a href="index.php" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Indice</span></a></li>
+             <li><a href="index.php#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Indice</span></a></li>
              <li>
                <a href="index.php" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portafolio</span></a>
                
@@ -102,7 +100,7 @@ try{
              <h2>Detalle Portafolio <?php echo $getdate; ?></h2>
              <ol>
                <li><a href="index.php">Home</a></li>
-               <li>%s</li>
+               <li> %s</li>
              </ol>
            </div>
    
@@ -124,11 +122,11 @@ try{
                    </div>
    
                    <div class="swiper-slide">
-                     <img src=<?php echo $ObjDates["viewscontent"][$getdate]["images"][0]["img-02"];  ?>  alt="">
+                     <img src= %s alt="">
                    </div>
    
                    <div class="swiper-slide">
-                     <img src=<?php echo $ObjDates["viewscontent"][$getdate]["images"][0]["img-01"];  ?> alt="">
+                     <img src= %s alt="">
                    </div>
    
                  </div>
@@ -141,12 +139,12 @@ try{
                  <h3>informacion del projecto</h3>
                  <ul>
                    <li><strong>Unidad 1 </strong></li>
-                   <li><strong>fecha projecto</strong>: <?php echo $ObjDates["viewscontent"][$getdate]["fechaTrabajo"];  ?> </li>
-                   <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                   <li><strong>fecha projecto</strong>: %s </li>
+                   <li><strong>Titulo Trabajo </strong>: %s</li>
                  </ul>
                </div>
                <div class="portfolio-description">
-                 <h2><?php echo $ObjDates["viewscontent"][$getdate]["tituloTrabajo"];  ?></h2>
+                 <h2> %s</h2>
                  <p>
               
                  </p>
@@ -199,8 +197,16 @@ try{
    //print($bodyview);
 
    $titulo = $ObjDates["viewscontent"][$getdate]["taskName"];
-   
 
-   printf($bodyview,$titulo,$ObjDates["viewscontent"][$getdate]["images"][0]["img-03"]);
+   $img01 = $ObjDates["viewscontent"][$getdate]["images"][0]["img-01"];
+   $img02 = $ObjDates["viewscontent"][$getdate]["images"][0]["img-02"];
+   $img03 = $ObjDates["viewscontent"][$getdate]["images"][0]["img-03"];
+
+   $fechaProjecto = $ObjDates["viewscontent"][$getdate]["fechaTrabajo"];
+   $tituloTrabajo = $ObjDates["viewscontent"][$getdate]["tituloTrabajo"];
+   $descripcionProjecto = $ObjDates["viewscontent"][$getdate]["content"];
+
+
+   printf($bodyview, $titulo, $img01, $img02, $img03, $fechaProjecto, $tituloTrabajo, $descripcionProjecto);
 
 ?>

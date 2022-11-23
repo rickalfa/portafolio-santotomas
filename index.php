@@ -92,7 +92,7 @@
 
         <div class="section-title">
           <h2>Trabajo Portafolio 20222SV Elementos De Informática (IEI-049) seccion:2</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Soy estudiante de primer año de Analista de sistema en el instituto Santo Tomas sede metro los heroes; Espero ser un buen profecional.</p>
         </div>
 
         <div class="row">
@@ -352,7 +352,7 @@
               <h5>unidad 1 - Octubre </h5>
               <p><em>Operadores de busqueda Motores web de busqueda </em></p>
               <ul>
-                <li><a href="portfolio-details.php?date=1"> Opedadores </a> </li>
+                <li><a href="portfolio-details.php?date=2"> Opedadores </a> </li>
                 <li>Motores de busqueda </li>
                
                </ul>
