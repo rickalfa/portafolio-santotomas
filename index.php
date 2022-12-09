@@ -45,10 +45,10 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/profile-01.jpg" alt="" class="img-fluid rounded-circle">
+        <img src="assets/img/foto-perfil-02.jpg" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Ricardo Betancourt</a></h1>
 
-        <!-- =======
+        <!-- ==========================================
         <div class="social-links mt-3 text-center">
           <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
           <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -57,7 +57,7 @@
           <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         </div>
       </div>
-        ======= -->
+             ======================================================= -->
 
 
         <nav id="navbar" class="nav-menu navbar">
@@ -97,7 +97,7 @@
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-01.jpg" class="img-fluid" alt="">
+            <img src="assets/img/foto-perfil-02.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>estudiante Santo tomas &amp; Carrera analista Programador.</h3>
@@ -366,6 +366,18 @@
               <ul>
           
                 <li><a href="https://www.youtube.com/watch?v=tGjqLHqG3aQ&t=11s" target="_blank" > intalacion git para S.O. Windows , interfaz grafica y linea de comandos</a> </li>
+                <li>  </li>
+               </ul>
+            </div>
+
+
+            <div class="resume-item">
+              <h4>Microsoft Excel Avanzado  </h4>
+              <h5>unidad 2 - Octubre (11 - noviembre ) </h5>
+              <p><em>indicaciones y formulas para excel </em></p>
+              <ul>
+          
+                <li>  </li>
                 <li>  </li>
                </ul>
             </div>
